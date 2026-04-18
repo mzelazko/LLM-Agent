@@ -1,4 +1,4 @@
-# Showcase: minimal coding agent
+# Minimal coding agent
 
 A small **tool-calling agent** built with [LiteLLM](https://github.com/BerriAI/litellm). It runs a loop: the model proposes `run_shell` or `finish` tool calls; commands execute in a working directory and results are fed back until the model finishes or a step limit is hit.
 
